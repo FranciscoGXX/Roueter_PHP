@@ -9,7 +9,7 @@ class PageController{
 
     public function Social()
     {
-        echo "Estoy en social";
+        require_once "./Views/Social.php";
     }
     
     public function Users()
